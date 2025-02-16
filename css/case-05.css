@@ -1,0 +1,80 @@
+body {
+    margin: 10px 10px;
+}
+
+.box1{
+    background: red;
+    border: 1px solid black;
+    padding: 100px;
+}
+
+.box2{
+    background: green;
+    border: 1px solid black;
+    padding: 100px;
+}
+
+.box3{
+    background: rgb(255, 111, 0);
+    border: 1px solid black;
+    padding: 100px;
+}
+
+.box4{
+    background: purple;
+    border: 1px solid black;
+    padding: 100px;
+}
+
+.box5{
+    background: rgb(208, 10, 109);
+    border: 1px solid black;
+    padding: 100px;
+}
+
+.box6{
+    background: blue;
+    border: 1px solid black;
+    padding: 100px;
+}
+
+.box7{
+    background: brown;
+    border: 1px solid black;
+    padding: 100px;
+}
+
+.box8{
+    background: plum;
+    border: 1px solid black;
+    padding: 100px;
+}
+
+.box9{
+    background: rgb(55, 0, 55);
+    border: 1px solid black;
+    padding: 100px;
+}
+
+.box10{
+    background: yellow;
+    border: 1px solid black;
+    padding: 100px;
+}
+
+.box11{
+    background: rgb(74, 147, 137);
+    border: 1px solid black;
+    padding: 100px;
+}
+
+.box12{
+    background: aqua;
+    border: 1px solid black;
+    padding: 100px;
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
