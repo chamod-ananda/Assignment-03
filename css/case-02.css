@@ -43,33 +43,30 @@ body {
   font-weight: bold;
 }
 
-.side-nav-bar {
-  position: absolute;
-  top: 75px;
-  left: 0;
-  width: 200px;
-  padding: 20px;
-  background: purple;
+.container {
+  display: flex;
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+}
+
+aside {
+  width: 15%;
+  background-color: #720c8f;
   color: white;
-  height: 100%;
+  padding: 20px;
 }
 
-.side-nav-bar ul {
+aside ul {
   list-style: none;
-  padding: 0;
-  margin: 0;
 }
 
-.side-nav-bar li {
-  margin: 20px 0;
-}
-
-.side-nav-bar a {
+aside a {
+  display: block;
   color: white;
   text-decoration: none;
-  font-size: 1.1rem;
-  display: block;
-  padding: 10px;
+  margin-bottom: 15px;
+  font-weight: bold;
 }
 
 .gif-container {
@@ -96,8 +93,19 @@ body {
 }
 
 .content {
+  width: 100%;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 5px;
+  background-color: white;
   position: relative;
-  padding: 5px 20px 5px;
-  margin-left: 230px;
-  margin-top: 0;
+}
+
+footer {
+  width: 99.75%;
+  background-color: grey;
+  color: white;
+  text-align: center;
+  padding: 2px;
+  position: relative;
 }
